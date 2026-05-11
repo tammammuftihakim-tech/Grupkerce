@@ -6,13 +6,13 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-aut
 import { getDatabase } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAMtBK4ecOuvmpAjwyIHzKRVmWfFoKKnNE",
-  authDomain: "monitoring-iot-35104.firebaseapp.com",
-  databaseURL: "https://monitoring-iot-35104-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "monitoring-iot-35104",
-  storageBucket: "monitoring-iot-35104.firebasestorage.app",
-  messagingSenderId: "175200903135",
-  appId: "1:175200903135:web:224cd99680dc420cd5ae6a",
+  apiKey: "AIzaSyAfGSE9_yWVUmlrsCJNxz0tVKl3dzSA9eA",
+  authDomain: "dashboard-greenhose.firebaseapp.com",
+  databaseURL: "https://dashboard-greenhose-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "dashboard-greenhose",
+  storageBucket: "dashboard-greenhose.firebasestorage.app",
+  messagingSenderId: "957077385763",
+  appId: "1:957077385763:web:bebf7f90c4de036820b796",
   measurementId: "G-5YHMBQG29D"
 };
 

@@ -21,9 +21,17 @@
           <label for="email">Email</label>
           <input type="email" id="email" placeholder="nama@email.com" required />
         </div>
-        <div class="form-group">
+        <div class="form-group password-group">
           <label for="password">Password</label>
-          <input type="password" id="password" placeholder="••••••••" required />
+          <div class="password-input-wrap">
+            <input type="password" id="password" placeholder="••••••••" required />
+            <button type="button" class="password-toggle" id="togglePassword" aria-label="Tampilkan password">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8Z" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+            </button>
+          </div>
         </div>
         <div class="form-row">
           <label class="checkbox">
@@ -33,7 +41,7 @@
         </div>
         <button type="submit" class="btn btn-primary btn-block">Masuk</button>
         <p id="loginMessage" class="form-message"></p>
-        <p class="form-footer">Belum punya akun? <a href="#" class="link">Daftar di sini</a></p>
+        <p class="form-footer">Belum punya akun? <a href="register.html" class="link">Daftar di sini</a></p>
       </form>
     </div>
 

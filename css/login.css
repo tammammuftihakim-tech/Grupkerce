@@ -27,7 +27,8 @@
 .login-form .form-group { margin-bottom: 18px; }
 .login-form label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: var(--text); }
 .login-form input[type="email"],
-.login-form input[type="password"] {
+.login-form input[type="password"],
+.login-form input[type="text"] {
   width: 100%;
   padding: 12px 14px;
   border-radius: 10px;
@@ -36,6 +37,43 @@
   transition: border .15s ease, box-shadow .15s ease;
   outline: none;
   background: #fafbfd;
+}
+.password-input-wrap {
+  position: relative;
+  width: 100%;
+}
+.password-input-wrap input {
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 48px;
+  min-height: 46px;
+}
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  padding: 0;
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-soft);
+  cursor: pointer;
+  line-height: 1;
+  font-size: 0;
+  outline: none;
+}
+.password-toggle:hover,
+.password-toggle:focus-visible {
+  color: var(--text);
+}
+.password-toggle svg {
+  width: 18px;
+  height: 18px;
 }
 .login-form input:focus {
   border-color: var(--primary);
